@@ -1,7 +1,7 @@
 ## Implementation of Stein Variational Gradient Descent
 
 The paper titled _Stein Variational Gradient Descent: A General
-Purpose Bayesian Inference Algorithm_ ([link](https://arxiv.org/pdf/1608.04471)) describes how one can approximate a given distribution by its log probability using samples.
+Purpose Bayesian Inference Algorithm_ ([link](https://arxiv.org/pdf/1608.04471)) describes how one can get samples from arbitrary distributions using a special kind of gradient descent.
 
 In this implementation I created a _neural sampler_ that – using SVGD – learns to sample from a 
 given (unnormalized) log probability function, which could also be an energy function.
