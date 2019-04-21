@@ -4,7 +4,7 @@ The paper titled _Stein Variational Gradient Descent: A General
 Purpose Bayesian Inference Algorithm_ ([link](https://arxiv.org/pdf/1608.04471)) describes how one can get samples from arbitrary distributions using a special kind of gradient descent.
 
 In this implementation I created a _neural sampler_ that – using SVGD – learns to sample from a 
-given (unnormalized) log probability function, which could also be an energy function.
+given (unnormalized) log probability function, which could also be an energy function. This is also described by follow-up paper _Learning to Draw Samples with Amortized Stein Variational Gradient Descent_ ([link](https://arxiv.org/pdf/1707.06626)).
 
 <figure>
 <img src="anim.gif" style="width: 100%; max-width=480px">
