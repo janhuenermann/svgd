@@ -8,7 +8,7 @@ given (unnormalized) log probability function, which could also be an energy fun
 
 <figure>
 <img src="anim.gif" style="width: 100%; max-width=480px">
-<figcaption>Figure 1: Convergence of a neural network learning to sample from a gaussian mixture model.</figcaption>
+<figcaption>Figure 1: Convergence of a neural network learning to sample from a gaussian mixture model. Background is the likelihood of the mixture model. </figcaption>
 </figure>
 
 ### Applications
